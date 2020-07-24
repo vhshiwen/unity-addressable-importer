@@ -5,6 +5,8 @@
 
 
 - path  目标文件们的路径描述，这个可以使用 wildcard（通配符）或者 regex 来描述一组文件。
+  - wildcard : 通配符 ：  *代表多个或者0个位置的字符，  ？  代表一个字符
+  -regex ： 比较复杂，看一看看  https://github.com/vhshiwen/unity-addressable-importer/blob/master/Documentation~/AddressableImporter.md#address-replacement
 - MatchType  ： 说的是 path 中使用 wildcard  或者 regex  。
 - Group Name ： 这个group 的名称 
 - LabelMode ： 标签的添加方式
